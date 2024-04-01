@@ -1,0 +1,212 @@
+.nav-link {
+    transition: all 0.2s;
+    position: relative;
+}
+
+.nav-link:hover {
+    /* text-decoration: underline; */
+    /* border-bottom: 2px solid blue; */
+}
+
+.nav-link:hover::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: rgb(94, 125, 211);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+}
+
+.banner {
+    background: url(Asset/img/wellcome.png) no-repeat center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: aliceblue;
+}
+
+.wetek {
+    color: black;
+}
+
+.btn {
+    background-color: rgb(20, 20, 168);
+    color: azure;
+}
+
+p.h5 {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+div.container-fket{
+    background-color: rgba(129, 129, 129, 1);
+}
+
+div.container-at{
+    background-color: rgb(48, 82, 236);
+}
+
+div.vertical-line {
+    width: 100%; /* Use only border style */
+    height: 0%;
+    float: left; 
+    border: 1px inset; /* This is default border style for <hr> tag */
+}
+
+.dalneg{
+    background-color: rgba(230, 230, 230, 1);
+    padding-top: 130px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+.dalnegtx{
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    font-size: larger;
+}
+
+.container-dalneg{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.bgtekss{
+    background-color: rgb(250, 0, 0);
+    color: white;
+}
+
+.container-spc{
+    background-color: rgba(230, 230, 230, 1);
+}
+
+img.kiri {
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bghju{
+    color: rgb(255, 255, 255);
+    background-color: rgba(53, 183, 50, 1);
+    border: none;
+}
+
+.bgmrh{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 1);
+    border: none;
+}
+
+.bgbru{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 132, 255);
+    border: none;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.linkis{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.container-tmbh{
+    margin-top: 200px;
+}
+
+img.tengah{
+    float: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.container-lr{
+    background: url(Asset/img/wellcome.png) no-repeat center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+
+.container-login{
+    margin-left: 250px;
+    margin-top: 40px;
+    background:rgba(53, 53, 53, 0.5);
+    width: 60%;
+    height: 414px;
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(71, 71, 71);
+}
+
+.textlogin{
+    background:rgba(0, 0, 0, 0.5);;
+    padding: 33px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 60px;
+    box-shadow: 3px 3px 3px rgb(71, 71, 71);
+}
+
+.container-lg{
+    background:rgba(134, 134, 134, 0.5);
+    text-decoration: none;
+    padding: 30px;
+    width: 120px;
+    height: px;
+    margin-top: 100px ;
+    border-radius: 60px;
+    box-shadow: 3px 3px 3px rgb(71, 71, 71);
+}
+
+.tmblgn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+    border: 1px ;
+    box-shadow: 3px 3px 3px rgb(71, 71, 71);
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+}
+
+.tmblgn:hover{
+    color: rgb(49, 49, 49);
+    background-color: rgb(95, 95, 95);
+    border: 1px ;
+    box-shadow: 3px 3px 3px rgb(71, 71, 71);
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+}
+
+.form-link{
+    color: white;
+}
